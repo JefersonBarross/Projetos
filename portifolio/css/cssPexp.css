@@ -1,0 +1,110 @@
+*{  font-family: "Inter", serif;
+    margin:0x;
+    text-decoration: none;}
+
+    /*padrão de texto*/
+.textos{color: white}
+    
+body{background-color: #0C0231;}
+
+    /*CABECALHO HOME EXPERIENCIAS...*/
+.cab {display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position:absolute;
+    top: 30px;
+    width: 600px;
+    color: white;}
+    
+.exp, .projetos, .home
+    {text-decoration: none;
+        color:white;
+        font-size: 15px;}
+
+    /*figura geometrica*/
+.poligon
+        {z-index:101;
+        height: 600px;
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;}
+    
+.linha
+    {display:flex;
+    position:absolute;
+    top:150px;
+    left:930px;}
+
+    /*conteudo*/
+.textcont
+    {font-size: 30px;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 105;
+    top:210px;
+    right:245px;}
+
+.dinn {color: #7458D9}
+
+    /*primeira imagem da pagina*/
+.coffe {
+    width: 547px;
+    height: 435px;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+.tricity{
+    display: flex;
+    justify-content: start;
+    position: absolute;
+    top: 690px;
+    z-index:104;
+}
+    /*texto do conteudo*/
+
+.info{
+    display: flex;
+    position: absolute;
+    top: 700px;
+    left: 500px;
+    font-size:30px;
+}
+
+.info2{
+    display: flex;
+    position: absolute;
+    top: 790px;
+    left: 500px;
+    font-size:15px;
+}
+
+/*curriculo botao*/
+.curriculo{
+    
+    width: 200px;
+    display: flex;
+    position: absolute;
+    top: 920px;
+    left: 830px;
+    
+
+}
+/*final*/
+.navB{
+    display: flex;
+    flex-wrap: nowrap; /* Garante que os itens fiquem na mesma linha */
+    padding-top: 80px;
+    padding-bottom: 70px;
+    padding-right: 700px;
+    padding-left: 700px;
+    background-color: #7458D9;
+    color: white;
+    position: absolute;
+    top: 1400px; 
+    left: 0;
+    justify-content: center;
+    align-items: center;}
