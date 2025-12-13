@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de IMC</title>
+
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <main class="pagina">
+
+    <form class="form-imc">
+      <div class="campo">
+        <label for="peso">Peso</label>
+        <input type="number" id="peso" placeholder="kg">
+      </div>
+
+      <div class="campo">
+        <label for="altura">Altura</label>
+        <input type="number" id="altura" placeholder="cm">
+      </div>
+
+      <button id="btnCalcular" type="submit">
+        Calcular
+      </button>
+    </form>
+
+    <section class="resultado">
+      <p class="aviso">
+        Descubra agora se seu peso está dentro do ideal
+      </p>
+
+      <!-- resultado aparece aqui pelo JS -->
+    </section>
+
+    <section class="tabela-imc">
+      <div class="coluna">
+        <p class="titulo">IMC</p>
+        <p>Menos de 17</p>
+        <p>17 até 18,49</p>
+        <p>18,5 até 24,99</p>
+        <p>25 até 29,99</p>
+        <p>30 até 34,99</p>
+        <p>35 até 39,99</p>
+        <p>Acima de 40</p>
+      </div>
+
+      <div class="coluna">
+        <p class="titulo">Classificação</p>
+        <p>Muito abaixo do peso</p>
+        <p>Abaixo do peso</p>
+        <p>Peso normal</p>
+        <p>Acima do peso</p>
+        <p>Obesidade I</p>
+        <p>Obesidade II</p>
+        <p>Obesidade III</p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
