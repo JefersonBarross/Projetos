@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick & Morty</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="pagina">
+
+    <section class="inicio">
+      <div class="logo">
+        <img src="./img/logo.svg" alt="Rick and Morty">
+      </div>
+
+      <div class="area-principal">
+        <div class="texto">
+          <h1>
+            Todos os personagens em um só <span>lugar</span>
+          </h1>
+
+          <div class="descricao">
+            <p>
+              Essa página usa a API de Rick and Morty pra mostrar personagens
+              e ajudar a entender como fazer requisições na prática.
+            </p>
+
+            <a href="https://rickandmortyapi.com/" target="_blank">
+              Ver documentação
+            </a>
+          </div>
+
+          <p class="zoeira">Aí sim 😎</p>
+        </div>
+
+        <img src="./img/rick.png" alt="Rick Sanchez">
+      </div>
+    </section>
+
+    <section class="lista-personagens">
+      <h2>Personagens</h2>
+
+      <div class="cards">
+        <!-- cards gerados pelo JS -->
+      </div>
+    </section>
+
+    <div class="mais">
+      <button id="btn">Carregar mais</button>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

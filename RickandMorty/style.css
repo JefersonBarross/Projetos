@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+
+.inicio {
+  background-color: #000;
+  padding-top: 30px;
+}
+
+.logo {
+  width: 220px;
+  margin: 0 auto;
+}
+
+.area-principal {
+  max-width: 1260px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.texto {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.texto h1 {
+  font-size: 48px;
+}
+
+.texto h1 span {
+  color: #11b0c8;
+}
+
+.descricao {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.descricao a {
+  width: 170px;
+  background-color: #11b0c8;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.zoeira {
+  color: #11b0c8;
+}
+
+.lista-personagens {
+  max-width: 1260px;
+  margin: auto;
+  padding-top: 120px;
+}
+
+.lista-personagens h2 {
+  margin-bottom: 35px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #1a1a1a;
+  border: 1px solid #868686;
+  border-radius: 16px;
+  padding: 16px;
+  padding-bottom: 72px;
+}
+
+.card header {
+  margin-bottom: 19px;
+}
+
+.card header img {
+  width: 262px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.card .content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card .status {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.mais {
+  width: 231px;
+  margin: 71px auto 79px;
+}
+
+.mais button {
+  width: 231px;
+  background-color: #11b0c8;
+  padding: 15px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
